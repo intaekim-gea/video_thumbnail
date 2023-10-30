@@ -15,7 +15,7 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.pod_target_xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libwebp/**'
+    'USER_HEADER_SEARCH_PATHS' => '${PODS_ROOT}/libwebp/**'
   }
   s.dependency 'Flutter'
   s.dependency 'libwebp'
